@@ -1,0 +1,14 @@
+api-1  | INFO:     Started server process [1]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1  | Loaded model from /app/spam_model.joblib
+api-1  | Configured Redis client for redis://cache:6379/0
+api-1  | Cache MISS; prediction is now stored in Redis
+api-1  | INFO:     172.18.0.1:49236 - "POST /predict HTTP/1.1" 200 OK
+api-1  | Cache HIT
+api-1  | INFO:     172.18.0.1:49240 - "POST /predict HTTP/1.1" 200 OK
+api-1  | Cache MISS; prediction is now stored in Redis
+api-1  | INFO:     172.18.0.1:48460 - "POST /predict HTTP/1.1" 200 OK
+api-1  | Cache HIT
+api-1  | INFO:     172.18.0.1:48462 - "POST /predict HTTP/1.1" 200 OK
