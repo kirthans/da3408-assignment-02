@@ -11,7 +11,7 @@ A REST API that classifies short messages as `spam` or `ham` using a TF-IDF vect
 
 ```bash
 conda env create -f environment.yml
-conda activate aioops-spam
+conda activate aiops-spam
 python generate_dataset.py
 python train.py
 uvicorn app.main:app --host 0.0.0.0 --port 8000
