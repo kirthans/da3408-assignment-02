@@ -6,4 +6,5 @@ __pycache__/
 .DS_Store
 .vscode/
 report_notes.txt
+report_build/
 assignment_2.pdf
