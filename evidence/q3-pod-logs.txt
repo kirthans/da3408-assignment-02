@@ -1,0 +1,24 @@
+===== signup-validation-0-jwtm8 =====
+VALIDATION_RESULT shard_index=0 node_name=minikube-m02 invalid_rows=2
+Validation complete; keeping pod observable for 30 seconds
+===== signup-validation-1-zhb42 =====
+VALIDATION_RESULT shard_index=1 node_name=minikube invalid_rows=3
+Validation complete; keeping pod observable for 30 seconds
+===== signup-validation-2-b6zdr =====
+VALIDATION_RESULT shard_index=2 node_name=minikube-m02 invalid_rows=1
+Validation complete; keeping pod observable for 30 seconds
+===== signup-validation-3-9v76z =====
+VALIDATION_RESULT shard_index=3 node_name=minikube-m02 invalid_rows=4
+Validation complete; keeping pod observable for 30 seconds
+===== signup-validation-4-rxf9s =====
+VALIDATION_RESULT shard_index=4 node_name=minikube-m02 invalid_rows=2
+Validation complete; keeping pod observable for 30 seconds
+===== signup-validation-5-jpsmq =====
+VALIDATION_RESULT shard_index=5 node_name=minikube invalid_rows=5
+Validation complete; keeping pod observable for 30 seconds
+===== signup-validation-6-l2m5l =====
+VALIDATION_RESULT shard_index=6 node_name=minikube-m02 invalid_rows=3
+Validation complete; keeping pod observable for 30 seconds
+===== signup-validation-7-f4rzp =====
+VALIDATION_RESULT shard_index=7 node_name=minikube-m02 invalid_rows=2
+Validation complete; keeping pod observable for 30 seconds

@@ -1,0 +1,9 @@
+NAME                        READY   STATUS      RESTARTS   AGE   IP           NODE           NOMINATED NODE   READINESS GATES
+signup-validation-0-jwtm8   0/1     Completed   0          62s   10.244.1.2   minikube-m02   <none>           <none>
+signup-validation-1-zhb42   0/1     Completed   0          62s   10.244.0.3   minikube       <none>           <none>
+signup-validation-2-b6zdr   0/1     Completed   0          62s   10.244.1.4   minikube-m02   <none>           <none>
+signup-validation-3-9v76z   0/1     Completed   0          62s   10.244.1.3   minikube-m02   <none>           <none>
+signup-validation-4-rxf9s   1/1     Running     0          29s   10.244.1.5   minikube-m02   <none>           <none>
+signup-validation-5-jpsmq   1/1     Running     0          29s   10.244.0.4   minikube       <none>           <none>
+signup-validation-6-l2m5l   1/1     Running     0          29s   10.244.1.6   minikube-m02   <none>           <none>
+signup-validation-7-f4rzp   1/1     Running     0          29s   10.244.1.7   minikube-m02   <none>           <none>

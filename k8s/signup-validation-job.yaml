@@ -1,0 +1,41 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: signup-validation
+  labels:
+    app: signup-validator
+spec:
+  completions: 8
+  parallelism: 4
+  completionMode: Indexed
+  backoffLimit: 1
+  template:
+    metadata:
+      labels:
+        app: signup-validator
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: validator
+          image: signup-validator:v1
+          imagePullPolicy: IfNotPresent
+          command: ["/bin/sh", "-c"]
+          args:
+            - |
+              python -u validator.py
+              echo "Validation complete; keeping pod observable for 30 seconds"
+              sleep 30
+          resources:
+            requests:
+              cpu: "1"
+            limits:
+              cpu: "1"
+          env:
+            - name: JOB_COMPLETION_INDEX
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.annotations['batch.kubernetes.io/job-completion-index']
+            - name: NODE_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
