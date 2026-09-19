@@ -1,0 +1,24 @@
+user_id,email,full_name,country
+user-1-102,invalid-email-1-2,User 1 102,Japan
+user-1-15,user1_15@example.com,User 1 15,Canada
+user-1-19,user1_19@example.com,User 1 19,India
+user-1-100,invalid-email-1-0,User 1 100,Japan
+user-1-2,user1_2@example.com,User 1 2,Japan
+user-1-11,user1_11@example.com,User 1 11,Canada
+user-1-9,user1_9@example.com,User 1 9,India
+user-1-3,user1_3@example.com,User 1 3,India
+user-1-16,user1_16@example.com,User 1 16,Canada
+user-1-4,user1_4@example.com,User 1 4,India
+user-1-6,user1_6@example.com,User 1 6,Canada
+user-1-5,user1_5@example.com,User 1 5,Japan
+user-1-101,user1_101@example.com,,Japan
+user-1-0,user1_0@example.com,User 1 0,Canada
+user-1-13,user1_13@example.com,User 1 13,Canada
+user-1-18,user1_18@example.com,User 1 18,Canada
+user-1-1,user1_1@example.com,User 1 1,Canada
+user-1-10,user1_10@example.com,User 1 10,Germany
+user-1-7,user1_7@example.com,User 1 7,India
+user-1-17,user1_17@example.com,User 1 17,Japan
+user-1-8,user1_8@example.com,User 1 8,Japan
+user-1-12,user1_12@example.com,User 1 12,Germany
+user-1-14,user1_14@example.com,User 1 14,Japan

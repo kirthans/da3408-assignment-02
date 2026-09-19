@@ -1,0 +1,24 @@
+user_id,email,full_name,country
+user-6-6,user6_6@example.com,User 6 6,Japan
+user-6-3,user6_3@example.com,User 6 3,Germany
+user-6-17,user6_17@example.com,User 6 17,Germany
+user-6-16,user6_16@example.com,User 6 16,India
+user-6-13,user6_13@example.com,User 6 13,Germany
+user-6-101,user6_101@example.com,,Canada
+user-6-100,invalid-email-6-0,User 6 100,Japan
+user-6-1,user6_1@example.com,User 6 1,India
+user-6-4,user6_4@example.com,User 6 4,Canada
+user-6-19,user6_19@example.com,User 6 19,India
+user-6-0,user6_0@example.com,User 6 0,Japan
+user-6-8,user6_8@example.com,User 6 8,Japan
+user-6-10,user6_10@example.com,User 6 10,Germany
+user-6-12,user6_12@example.com,User 6 12,Canada
+user-6-15,user6_15@example.com,User 6 15,India
+user-6-18,user6_18@example.com,User 6 18,India
+user-6-14,user6_14@example.com,User 6 14,Canada
+user-6-5,user6_5@example.com,User 6 5,Canada
+user-6-9,user6_9@example.com,User 6 9,Canada
+user-6-102,invalid-email-6-2,User 6 102,Japan
+user-6-7,user6_7@example.com,User 6 7,Canada
+user-6-2,user6_2@example.com,User 6 2,India
+user-6-11,user6_11@example.com,User 6 11,Japan

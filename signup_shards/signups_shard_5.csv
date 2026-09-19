@@ -1,0 +1,26 @@
+user_id,email,full_name,country
+user-5-7,user5_7@example.com,User 5 7,Japan
+user-5-5,user5_5@example.com,User 5 5,India
+user-5-3,user5_3@example.com,User 5 3,India
+user-5-104,invalid-email-5-4,User 5 104,Japan
+user-5-103,user5_103@example.com,,Japan
+user-5-4,user5_4@example.com,User 5 4,India
+user-5-101,user5_101@example.com,,Germany
+user-5-11,user5_11@example.com,User 5 11,Japan
+user-5-16,user5_16@example.com,User 5 16,India
+user-5-12,user5_12@example.com,User 5 12,Germany
+user-5-0,user5_0@example.com,User 5 0,India
+user-5-2,user5_2@example.com,User 5 2,India
+user-5-14,user5_14@example.com,User 5 14,Japan
+user-5-13,user5_13@example.com,User 5 13,India
+user-5-8,user5_8@example.com,User 5 8,Germany
+user-5-15,user5_15@example.com,User 5 15,Germany
+user-5-100,invalid-email-5-0,User 5 100,Canada
+user-5-19,user5_19@example.com,User 5 19,Germany
+user-5-10,user5_10@example.com,User 5 10,Germany
+user-5-102,invalid-email-5-2,User 5 102,Germany
+user-5-17,user5_17@example.com,User 5 17,Germany
+user-5-18,user5_18@example.com,User 5 18,Canada
+user-5-1,user5_1@example.com,User 5 1,Germany
+user-5-6,user5_6@example.com,User 5 6,Japan
+user-5-9,user5_9@example.com,User 5 9,Germany
