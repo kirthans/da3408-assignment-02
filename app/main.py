@@ -11,7 +11,7 @@ from redis.exceptions import RedisError
 
 MODEL_PATH = Path(__file__).resolve().parent.parent / "spam_model.joblib"
 REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")
-APP_VERSION = os.getenv("APP_VERSION", "v1")
+APP_VERSION = os.getenv("APP_VERSION", "v2")
 CACHE_TTL_SECONDS = 3600
 
 model = None
