@@ -11,6 +11,7 @@ from redis.exceptions import RedisError
 
 MODEL_PATH = Path(__file__).resolve().parent.parent / "spam_model.joblib"
 REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")
+APP_VERSION = os.getenv("APP_VERSION", "v1")
 CACHE_TTL_SECONDS = 3600
 
 model = None
@@ -35,7 +36,7 @@ app = FastAPI(lifespan=lifespan)
 
 @app.get("/healthz")
 def healthz():
-    return {"status": "ok"}
+    return {"status": "ok", "version": APP_VERSION}
 
 @app.post("/predict", response_model=PredictResponse)
 def predict(request: PredictRequest):
